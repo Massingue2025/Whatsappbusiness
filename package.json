@@ -4,7 +4,8 @@
   "description": "Servidor WppConnect na nuvem com Render",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "postinstall": "npx puppeteer browsers install chrome"
   },
   "dependencies": {
     "@wppconnect-team/wppconnect": "^1.10.4",
